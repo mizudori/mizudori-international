@@ -1,1 +1,10 @@
-_site/
+Gemfile.lock
+*.DS_Store
+*.swp
+*.iml
+*.ipr
+*.iws
+*.swp
+.rvmrc
+.idea
+*~

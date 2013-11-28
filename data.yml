@@ -1,0 +1,11 @@
+title : Henry Addo Personal Website
+tagline : Software Developer
+description : This is a personal website of Henry Addo setup to document his digital activities. It also represent his brand identity
+author :
+  name : Henry Addo
+
+navigation :
+  - index.html
+  - about.html
+  - longitude.html
+  - photos.html

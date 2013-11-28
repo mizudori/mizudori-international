@@ -1,0 +1,13 @@
+"theme-addhen" :
+  use : "theme"
+
+"date_format": "%b %d, %Y"
+
+production_url: 'http://www.addhen.org'
+
+widgets :
+
+  analytics :
+    use : google
+    # -- tracking code for google analytics --
+    tracking_id : 'UA-12063676-22'
