@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{data.title }} - {{page.title}}</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+    {{# data.description }}
+      <meta name="description" content="{{ . }}"/>
+    {{/ data.description }}
+
+    {{# page.keywords }}
+      <meta name="Keywords" content="{{ . }}"/>
+    {{/ page.keywords}}
+      <meta name="author" content="{{ data.author.name }}"/>
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    {{# stylesheets.load }}
+      //netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css
+      //netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css
+    {{/ stylesheets.load }}
+  </head>
+  <body>
