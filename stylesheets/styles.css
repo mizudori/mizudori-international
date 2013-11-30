@@ -157,6 +157,14 @@ body.wrapper div.body {
 	z-index:0;
 	position:relative;
 	border-top:7px solid #428bca;
+
+	-webkit-border-bottom-left-radius: 7px;
+	-moz-border-bottom-left-radius: 7px ;
+	border-bottom-left-radius: 7px;
+
+	-webkit-border-bottom-right-radius: 7px;
+	-moz-border-bottom-right-radius: 7px ;
+	border-bottom-right-radius: 7px;
 }
 
 
@@ -506,7 +514,7 @@ a:hover {
 	transition:all 0.3s ease;
 }
 
-/** thumbnail */
+/** thumbnail *
 .thumbnail {
 	border:1px solid #f3f3f3;
 	font-size:13px;
@@ -544,7 +552,7 @@ a:hover {
 	-moz-filter:blur(2px);
 	-o-filter:blur(2px);
 	-ms-filter:blur(2px);
-}
+}*/
 
 select,textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input {
 	font-family: "roboto";
