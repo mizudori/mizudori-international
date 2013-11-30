@@ -3,11 +3,11 @@
   <channel>
     <title>Mizudori International</title>
     <description>Mushroom</description>
-    <link>http://www.addhen.org</link>
+    <link/>
     <pubDate>Nov 30, 2013</pubDate>
     <item>
       <title>About Us</title>
-      <link>http://www.addhen.org/about</link>
+      <link>/mizudori-international/about</link>
       <description>&lt;h3 id="toc_0"&gt;About Us&lt;/h3&gt;
 
 &lt;p&gt;While agricultural imports (shiitake, etc.) has been reduced from food safety, according to the actual situation of the region and the situation changes at home and abroad in the future, promoting the introduction of new products or new technology, locality development of regional specialty distinctive In order to strive, and to promote the provision of information and supply a standing improvement of distribution, Regulation of display and rationalization, to a consumer point of view, to achieve the promotion overall special purpose forest, in a fungal bed cultivation of shiitake production efforts, from mushroom bed manufacturing, we have established a facility to package.&lt;/p&gt;
@@ -53,12 +53,12 @@ CEO Yasuhide Ito&lt;/p&gt;
     </item>
     <item>
       <title>Contact Us</title>
-      <link>http://www.addhen.org/contact</link>
+      <link>/mizudori-international/contact</link>
       <description/>
     </item>
     <item>
       <title>Home</title>
-      <link>http://www.addhen.org/</link>
+      <link>/mizudori-international</link>
       <description>&lt;h3 id="toc_0"&gt;Who We are&lt;/h3&gt;
 
 &lt;p&gt;The motto of our company is &amp;quot;safe food&amp;quot;. Our company was established as the Agricultural producer&amp;#39;s
@@ -78,7 +78,7 @@ then to the country as a whole.&lt;/p&gt;
     </item>
     <item>
       <title>Products</title>
-      <link>http://www.addhen.org/products</link>
+      <link>/mizudori-international/products</link>
       <description/>
     </item>
   </channel>
