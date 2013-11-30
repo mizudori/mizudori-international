@@ -6,6 +6,6 @@ author :
 
 navigation :
   - index.md
-  - about.html
-  - longitude.html
-  - photos.html
+  - about.md
+  - products.md
+  - contact.md

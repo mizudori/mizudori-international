@@ -10,38 +10,39 @@
 					<h1 class="title"><i class="fa fa-quote-left"></i> President's Message</h1>
 					<hr>
 					<p>
-						 Introducing a premium HTML5 & CSS3 template for multipurpose use. Responsive layout, professional design & lots of features.
+						 We look to create healthy foods by using natural products from the mountain as well as a new technology.
 					</p>
 					<p>
-						 Made with love by  <a href="http://www.wowthemes.net">WowThemes.net</a> .
+						 We aim for a company which contributes to the local society and appreciation of both humans and nature.
 					</p>
 					<p class="footer-logo">
-						 Biscaya
+						 <em>CEO Yasuhide Ito</em>
 					</p>
 				</div>
 				<div class="col-lg-4">
 					<h1 class="title"><i class="fa fa-heart"></i> Mission</h1>
 					<hr>
-
+					<p>
+						<i class="fa fa-quote-left"></i> Our mission is to provide the best mushroom product and be the number one the market.<p>
+						We aim to be a group which evovles to move towards a common dream.
+					 <i class="fa fa-quote-right"></i></p>
+					</p>
 				</div>
 				<div class="col-lg-4">
 					<h1 class="title"><i class="fa fa-envelope"></i> Contact us</h1>
 					<hr>
-					<div class="done">
-						<div class="alert alert-success">
-							<button type="button" class="close" data-dismiss="alert">×</button>
-							Your message has been sent. Thank you!
+					<form method="post" action="contact.php" class="form-horizontal" id="contactform">
+						<div class="form-group">
+							<input class="form-control" type="text" name="name" placeholder="Name">
 						</div>
-					</div>
-					<form method="post" action="contact.php" id="contactform">
-						<div class="form">
-							<div class="controls row">
-								<input class="col-lg-6" type="text" name="name" placeholder="Name">
-								<input class="col-lg-6" type="text" name="email" placeholder="E-mail">
-							</div>
-							<div class="controls">-
-								<textarea class="col-lg-12" name="comment" rows="4" placeholder="Message"></textarea>
-							</div>
+						<div class="form-group">
+							<input class="form-control" type="text" name="email" placeholder="E-mail">
+						</div>
+
+						<div class="form-group">
+							<textarea class="form-control" name="comment" rows="4" placeholder="Message"></textarea>
+						</div>
+						<div class="form-group">
 							<input type="submit" id="submit" class="btn" value="Send">
 						</div>
 					</form>
@@ -56,18 +57,18 @@
 				<!-- left -->
 				<div class="col-lg-4 small-space-top">
 					<p class="smaller">
-						<span class="copyright">© </span> Copyright 2013 Biscaya. Be nice.
+						<span class="copyright"> &copy; </span> Copyright 2013 MIZUDORI CO.Ltd.
 					</p>
 				</div>
 				<!-- right -->
 				<div class="col-lg-8 small-space-top">
 					<div class="pull-right smaller">
 						<ul class="footer-menu">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Work</a></li>
-							<li><a href="#">Pages</a></li>
-							<li><a href="#">Blog</a></li>
-							<li><a href="#">Contact</a></li>
+							{{#data.navigation?to__root }}
+								<li class=" {{#is_active_page}}active{{/is_active_page}}">
+									<a href="{{url}}">{{title}}</a>
+								</li>
+							{{/data.navigation?to__root }}
 						</ul>
 					</div>
 					<div class="clearfix">
