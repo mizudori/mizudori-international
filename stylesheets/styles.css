@@ -123,9 +123,9 @@
 	margin:0;
 	padding:0;
 	zoom:1;
-	font-size:medium;
-	line-height:1.7em;
-	font-family:Verdana,"MS PGothic","ＭＳ Pゴシック",monospace;
+	font-size: medium;
+	line-height:1.5em;
+	font-family: "Roboto";
 }
 
 /** body **/
@@ -422,7 +422,7 @@ ul.footer-menu li a {
 .footer-dark-haki .totop,.footerdark .totop:hover {
 	background-image:none;
 }
-.footer-dark-haki input,.footer-dark textarea,.footer-dark input[type="text"] {
+.footer-dark-haki input,.footer-dark-haki textarea,.footer-dark-haki input[type="text"] {
 	background-color:#333;
 	border:0px;
 }
@@ -481,6 +481,7 @@ h3 {
 	padding:1px 12px;
 	color:#444;
 	font-weight: bold;
+	font-family: "Lato";
 	top:14px;
 	padding-left:0 !important;
 	text-transform:uppercase;
@@ -543,4 +544,12 @@ a:hover {
 	-moz-filter:blur(2px);
 	-o-filter:blur(2px);
 	-ms-filter:blur(2px);
+}
+
+select,textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input {
+	font-family: "roboto";
+	font-size:12px;
+}
+input[class*="span"],select[class*="span"],textarea[class*="span"],.uneditable-input[class*="span"],.row-fluid input[class*="span"],.row-fluid select[class*="span"],.row-fluid textarea[class*="span"],.row-fluid .uneditable-input[class*="span"] {
+	border-radius:3px;
 }
