@@ -57,15 +57,22 @@
 				</div>
 				<div class="container">
 					<div class="row">
-						<nav class="navbar-custom navbar navbar-default" role="navigation">
-							<div class="collapse navbar-collapse">
-								<ul class="nav navbar-nav">
-									{{#data.navigation?to__root }}
-										<li class=" {{#is_active_page}}active{{/is_active_page}}">
-											<a href="{{url}}">{{title}}</a>
-										</li>
-									{{/data.navigation?to__root }}
-								</ul>
+						<nav class="navbar-custom navbar navbar-default navbar-inverse" role="navigation">
+							<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-custom .navbar-collapse">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+							</div>
+							<div class="navbar-collapse collapse">
+									<ul class="nav navbar-nav">
+										{{#data.navigation?to__root }}
+											<li class=" {{#is_active_page}}active{{/is_active_page}}">
+												<a href="{{url}}">{{title}}</a>
+											</li>
+										{{/data.navigation?to__root }}
+									</ul>
 							</div>
 						</nav>
 					</div>
@@ -75,23 +82,23 @@
 		<div class="container">
 			<div class="thumbnail">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="{{urls.media}}/slide1.jpg" alt="manage Sync URL" title="manage Sync URL">
-                    </div>
-                    <div class="item">
-                        <img src="{{urls.media}}/slide2.jpg" alt="pending" title="Pending Messages" />
-                    </div>
-                    <div class="item">
-                        <img src="{{urls.media}}/slide3.jpg" alt="settings" title="Settings" />
-                    </div>
-                </div>
-                   <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                  </ol>
-            </div>
-    	</div>
+								<div class="carousel-inner">
+										<div class="item active">
+												<img src="{{urls.media}}/slide1.jpg" alt="manage Sync URL" title="manage Sync URL">
+										</div>
+										<div class="item">
+												<img src="{{urls.media}}/slide2.jpg" alt="pending" title="Pending Messages" />
+										</div>
+										<div class="item">
+												<img src="{{urls.media}}/slide3.jpg" alt="settings" title="Settings" />
+										</div>
+								</div>
+									 <!-- Indicators -->
+									<ol class="carousel-indicators">
+										<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+										<li data-target="#myCarousel" data-slide-to="1"></li>
+										<li data-target="#myCarousel" data-slide-to="2"></li>
+									</ol>
+						</div>
+			</div>
 		</div>
