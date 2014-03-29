@@ -10,29 +10,29 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffde47d', endColorstr='#fffcd94b', GradientType=0);
 }
 .navbar-custom .navbar-brand {
-  color: #000000;
+  color: #600;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus {
-  color: #000000;
+  color: #600;
   background-color: transparent;
 }
 .navbar-custom .navbar-text {
-  color: #000000;
+  color: #600;
 }
 .navbar-custom .navbar-nav > li > a {
-  color: #000000;
+  color: #600;
   font-weight: bold;
 }
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
-  color: #000000;
+  color: #600;
   background-color: transparent;
 }
 .navbar-custom .navbar-nav > .active > a,
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-  color: #000000;
+  color: #600;
   background-color: #fbd22a;
   background-image: -webkit-gradient(linear, left 0%, left 100%, from(#fbd22a), to(#fcdd5d));
   background-image: -webkit-linear-gradient(top, #fbd22a, 0%, #fcdd5d, 100%);
