@@ -1,4 +1,4 @@
-/** custo navbar color **/
+/** custom navbar color **/
 .navbar-custom {
   background-color: #fcd94b;
   border-color: #fbd22a;
@@ -205,7 +205,7 @@ header {
 	text-decoration:none;
 	text-align:center;
 	color:#fff;
-	border-radius: 3px !important;
+	border-radius: 3px;
 	-webkit-transition: background 2s ease;
 	-moz-transition: background 2s ease;
 	-o-transition: background 2s ease;
@@ -243,6 +243,12 @@ header {
 
 .social a.flickr i{
 	background: #ff0084;
+}
+
+.social a.jp-flag i{
+	border:1px solid #ddd;
+	border-radius: 3px;
+	color : #bc002d;
 }
 
 .infophone {
