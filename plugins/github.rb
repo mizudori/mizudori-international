@@ -1,6 +1,6 @@
 require 'tmpdir'
 
-# Usage: 
+# Usage:
 # add to ruhoh-site/plugins/publish/github.rb
 # - Your GitHub remote must be setup properly but The command will try to walk you through it.
 # - You must have a clean working directory to publish to GitHub pages since the hook is actually triggered by commits.
@@ -34,7 +34,7 @@ class Ruhoh
       # Add to deploy_branch
       return false unless checkout_deploy_branch
       system("git", "rm", "-rf", ".")
-      FileUtils.cp_r(File.join(ruhoh.paths.compiled, '.'), '.')
+      FileUtils.cp_r(File.join(ruhoh.config['compiled_path'], '.'), '.')
       `git add .` # system() doesn't work for some reason =/
 
       # Commit and push
@@ -45,15 +45,15 @@ class Ruhoh
 
     def compile
       ruhoh = Ruhoh.new
-      ruhoh.setup
+      #ruhoh.setup
       ruhoh.env = 'production'
-      ruhoh.setup_paths
+      #ruhoh.setup_paths
       ruhoh.setup_plugins
 
       config_overrides = set_configuration(ruhoh.config)
       ruhoh.config.merge!(config_overrides)
 
-      ruhoh.paths.compiled = File.join(Dir.tmpdir, 'compiled')
+      ruhoh.config['compiled_path'] = File.join(Dir.tmpdir, 'compiled')
       ruhoh.compile
       ruhoh
     end
@@ -63,14 +63,14 @@ class Ruhoh
       opts = {}
       opts['compile_as_root'] = true
       opts['base_path'] = "/"
-      
+
       if project_page?
         if !config['production_url'] || config['production_url'] == "http://sample.com"
           opts['base_path'] = "/#{ repository_name }/"
 
           Ruhoh::Friend.say { plain "base_path set to: #{ opts['base_path'] } for GitHub project page support" }
         else
-          Ruhoh::Friend.say { 
+          Ruhoh::Friend.say {
             plain "base_path set to: '#{ opts['base_path'] }' because config['production_url'] = '#{ config['production_url'] }'"
           }
         end
