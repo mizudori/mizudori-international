@@ -4,7 +4,7 @@
     <title>Mizudori International</title>
     <description>Mushroom</description>
     <link/>
-    <pubDate>Nov 30, 2013</pubDate>
+    <pubDate>Mar 30, 2014</pubDate>
     <item>
       <title>About Us</title>
       <link>/mizudori-international/about</link>
@@ -74,6 +74,125 @@ people who don&amp;#39;t like normal mushrooms can enjoy this new variety.&lt;/p
 
 &lt;p&gt;We aim to increase the domestic production of mushroom and to expand the sales network, first to the metropolitan area
 then to the country as a whole.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Order</title>
+      <link>/mizudori-international/order</link>
+      <description>&lt;div class="row"&gt;
+&lt;form class="form-horizontal"&gt;
+&lt;fieldset&gt;
+
+&lt;!-- Form Name --&gt;
+&lt;legend&gt;Place an order&lt;/legend&gt;
+
+&lt;!-- Select Basic --&gt;
+&lt;div class="form-group"&gt;
+  &lt;label class="col-md-4 control-label" for="product"&gt;Product&lt;/label&gt;
+  &lt;div class="col-md-4"&gt;
+    &lt;select id="product" name="product" class="form-control"/&gt;
+      &lt;option value="1"&gt;Fresh mushroom&lt;/option&gt;
+      &lt;option value="2"&gt;Mushroom chips&lt;/option&gt;
+    &lt;/select&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Button Drop Down --&gt;
+
+&lt;div class="form-group"&gt;
+  &lt;label class="col-md-4 control-label" for="quantity"&gt;Quantity&lt;/label&gt;
+  &lt;div class="col-md-4"&gt;
+    &lt;div class="input-group"&gt;
+      &lt;input id="quantity" name="quantity" class="form-control" placeholder="Quantity" type="text"/&gt;
+      &lt;div class="input-group-btn"&gt;
+        &lt;button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"&gt;
+          1
+          &lt;span class="caret"&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu pull-right"&gt;
+          &lt;li&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#"&gt;4&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Text input--&gt;
+
+&lt;div class="form-group"&gt;
+  &lt;label class="col-md-4 control-label" for="name"&gt;Full name&lt;/label&gt;
+  &lt;div class="col-md-4"&gt;
+  &lt;input id="name" name="name" type="text" placeholder="Full name" class="form-control input-md" required=""/&gt;
+  &lt;span class="help-block"&gt;Please enter your full name here&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Text input--&gt;
+
+&lt;div class="form-group"&gt;
+  &lt;label class="col-md-4 control-label" for="email"&gt;Email&lt;/label&gt;
+  &lt;div class="col-md-4"&gt;
+  &lt;input id="email" name="email" type="text" placeholder="Email" class="form-control input-md" required=""/&gt;
+  &lt;span class="help-block"&gt;Please enter your email address so we can contact you&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Text input--&gt;
+
+&lt;div class="form-group"&gt;
+  &lt;label class="col-md-4 control-label" for="phone"&gt;Phone&lt;/label&gt;
+  &lt;div class="col-md-4"&gt;
+  &lt;input id="phone" name="phone" type="text" placeholder="Phone number" class="form-control input-md" required=""/&gt;
+  &lt;span class="help-block"&gt;Please enter your phone number so we can call you about your order&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Text input--&gt;
+
+&lt;div class="form-group"&gt;
+  &lt;label class="col-md-4 control-label" for="address"&gt;Address&lt;/label&gt;
+  &lt;div class="col-md-4"&gt;
+  &lt;input id="address" name="address" type="text" placeholder="Street address" class="form-control input-md" required=""/&gt;
+  &lt;span class="help-block"&gt;Please enter mailing/shipping address&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Text input--&gt;
+
+&lt;div class="form-group"&gt;
+  &lt;label class="col-md-4 control-label" for="city"&gt;City&lt;/label&gt;
+  &lt;div class="col-md-4"&gt;
+  &lt;input id="city" name="city" type="text" placeholder="City" class="form-control input-md" required=""/&gt;
+  &lt;span class="help-block"&gt;City &lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Select Basic --&gt;
+
+&lt;div class="form-group"&gt;
+  &lt;label class="col-md-4 control-label" for="country"&gt;Country&lt;/label&gt;
+  &lt;div class="col-md-4"&gt;
+    &lt;select id="country" name="country" class="form-control"&gt;
+      &lt;option value="1"&gt;Ghana&lt;/option&gt;
+      &lt;option value="2"&gt;Japan&lt;/option&gt;
+    &lt;/select&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Button --&gt;
+
+&lt;div class="form-group"&gt;
+  &lt;label class="col-md-4 control-label" for="send"&gt;Submit&lt;/label&gt;
+  &lt;div class="col-md-4"&gt;
+    &lt;button id="send" name="send" class="btn btn-primary"&gt;Send&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/fieldset&gt;
+&lt;/form&gt;
+&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     <item>

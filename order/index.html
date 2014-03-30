@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Mizudori International - Home</title>
+		<title>Mizudori International - Order</title>
 		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
 			<meta name="description" content="Mushroom"/>
 
@@ -57,7 +57,7 @@
 							</div>
 							<div class="navbar-collapse collapse">
 									<ul class="nav navbar-nav">
-											<li class=" active">
+											<li class=" ">
 												<a href="/mizudori-international">Home</a>
 											</li>
 											<li class=" ">
@@ -66,7 +66,7 @@
 											<li class=" ">
 												<a href="/mizudori-international/products">Products</a>
 											</li>
-											<li class=" ">
+											<li class=" active">
 												<a href="/mizudori-international/order">Order</a>
 											</li>
 									</ul>
@@ -100,52 +100,121 @@
 			</div>
 		</div>
 	<div class="container">
-		<h3 id="toc_0">Who We are</h3>
-
-<p>The motto of our company is &quot;safe food&quot;. Our company was established as the Agricultural producer&#39;s
-Cooperative Corporation in 2004. Using biotechnology, we carry out the mushroom bacterium floor manufacturing and
-grow mushrooms to ship elswhere to sell. The mushrooms are thick and soft and the usual smell has been removed so
-people who don&#39;t like normal mushrooms can enjoy this new variety.</p>
-
-<h3 id="toc_1">What we do</h3>
-
-<p>Using biotechnology, we carry out the mushroom bacterium floor manufacturing and
-grow mushrooms to ship elswhere to sell. The mushrooms are thick and soft and the usual smell has been removed so
-people who don&#39;t like normal mushrooms can enjoy this new variety.</p>
-
-<p>We aim to increase the domestic production of mushroom and to expand the sales network, first to the metropolitan area
-then to the country as a whole.</p>
-
-		<h3>Products</h3>
 		<div class="row">
-			<div class="col-sm-6 col-md-4">
-				<div class="thumbnail">
-					<img src="http://farm4.staticflickr.com/3748/10817812266_8660ca8c18_n_d.jpg"/>
-				</div>
-				<div class="caption">
-					<p>Mushroom</p>
-					<p>100g</p>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-4">
-				<div class="thumbnail">
-					<img src="http://farm8.staticflickr.com/7358/10817807686_df86a974ee_n_d.jpg" />
-				</div>
-				<div class="caption">
-					<p>Mushroom</p>
-					<p>100g</p>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-4">
-				<div class="thumbnail">
-					<img src="http://farm4.staticflickr.com/3820/10817777175_57c8b683e4_n_d.jpg" />
-				</div>
-				<div class="caption">
-					<p>Mushroom</p>
-					<p>100g</p>
-				</div>
-			</div>
-		</div>
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Place an order</legend>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="product">Product</label>
+  <div class="col-md-4">
+    <select id="product" name="product" class="form-control"/>
+      <option value="1">Fresh mushroom</option>
+      <option value="2">Mushroom chips</option>
+    </select>
+  </div>
+</div>
+
+<!-- Button Drop Down -->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="quantity">Quantity</label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <input id="quantity" name="quantity" class="form-control" placeholder="Quantity" type="text"/>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+          1
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu pull-right">
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="name">Full name</label>
+  <div class="col-md-4">
+  <input id="name" name="name" type="text" placeholder="Full name" class="form-control input-md" required=""/>
+  <span class="help-block">Please enter your full name here</span>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email">Email</label>
+  <div class="col-md-4">
+  <input id="email" name="email" type="text" placeholder="Email" class="form-control input-md" required=""/>
+  <span class="help-block">Please enter your email address so we can contact you</span>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="phone">Phone</label>
+  <div class="col-md-4">
+  <input id="phone" name="phone" type="text" placeholder="Phone number" class="form-control input-md" required=""/>
+  <span class="help-block">Please enter your phone number so we can call you about your order</span>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="address">Address</label>
+  <div class="col-md-4">
+  <input id="address" name="address" type="text" placeholder="Street address" class="form-control input-md" required=""/>
+  <span class="help-block">Please enter mailing/shipping address</span>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="city">City</label>
+  <div class="col-md-4">
+  <input id="city" name="city" type="text" placeholder="City" class="form-control input-md" required=""/>
+  <span class="help-block">City </span>
+  </div>
+</div>
+
+<!-- Select Basic -->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="country">Country</label>
+  <div class="col-md-4">
+    <select id="country" name="country" class="form-control">
+      <option value="1">Ghana</option>
+      <option value="2">Japan</option>
+    </select>
+  </div>
+</div>
+
+<!-- Button -->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="send">Submit</label>
+  <div class="col-md-4">
+    <button id="send" name="send" class="btn btn-primary">Send</button>
+  </div>
+</div>
+
+<p></fieldset>
+</form>
+</div></p>
+
 	</div>
 <!-- footer starts -->
     <div class="footer footer-dark-haki">
@@ -213,7 +282,7 @@ then to the country as a whole.</p>
 				<div class="col-lg-8 small-space-top">
 					<div class="pull-right smaller">
 						<ul class="footer-menu">
-								<li class=" active">
+								<li class=" ">
 									<a href="/mizudori-international">Home</a>
 								</li>
 								<li class=" ">
@@ -222,7 +291,7 @@ then to the country as a whole.</p>
 								<li class=" ">
 									<a href="/mizudori-international/products">Products</a>
 								</li>
-								<li class=" ">
+								<li class=" active">
 									<a href="/mizudori-international/order">Order</a>
 								</li>
 						</ul>
