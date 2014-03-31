@@ -1,6 +1,7 @@
 ---
 layout : index
 title : Home
+slideshow : yes
 ---
 ### Who We are
 
