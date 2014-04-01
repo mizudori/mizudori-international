@@ -346,7 +346,7 @@ final class Api_Service {
 			case 001:
 				return array(
 					"code" => "001",
-					"message" => "missing - $param."
+					"message" => "Missing parameter - $param."
 				);
 
 			case 002:
@@ -361,7 +361,7 @@ final class Api_Service {
 			case 004:
 				return array(
 					"code" => "004",
-					"message" =>"Method not supported"
+					"message" =>"Data was not sent by post method"
 				);
 
 			case 005:

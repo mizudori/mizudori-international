@@ -68,7 +68,7 @@ class Contact_Forms_Api_Object extends Api_Object {
 		else
 		{
 			return $this->set_error_message(array("error" =>
-				$this->api_service->get_error_msg(003)));
+				$this->api_service->get_error_msg(004)));
 		}
 	}
 
