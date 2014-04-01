@@ -45,14 +45,14 @@ $(document).ready(function(){
 			var d = $(form).serialize();
 
 			var request = $.ajax({
-				type: 'POST',
+				type: "POST",
 				contentType: 'application/json; charset=utf-8',
 				url : 'http://mizudori.jp/mizudori-international/api/',
 				data: d
 
 			}).done(function(data) {
 				//form.resetForm();
-				console.log('data ' ++JSON.stringify(data));
+				console.log('data ' +JSON.stringify(data));
 				$("div.error-msg span").html('Your message has been successfully submitted');
 				$("div.error-msg").toggleClass('alert-success');
 				$("div.error-msg").show();
