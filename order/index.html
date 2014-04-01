@@ -21,7 +21,7 @@
 		<!-- Le styles -->
 <link href='//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css' type='text/css' rel='stylesheet' media='all'>
 <link href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' type='text/css' rel='stylesheet' media='all'>
-<link href='/mizudori-international/assets/stylesheets/styles-32d3d7e2d5b3096ca4e0828f0e4416e8.css' type='text/css' rel='stylesheet' media='all'>	</head>
+<link href='/mizudori-international/assets/stylesheets/styles-33bb165bd379063d00a2ca14a4c80454.css' type='text/css' rel='stylesheet' media='all'>	</head>
 	<body class="wrapper" >
 	<div class="body">
 		<header>
@@ -76,144 +76,106 @@
 				</div>
 			</div>
 		</header>
-		<div class="container">
-			<div class="thumbnail">
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-								<div class="carousel-inner">
-										<div class="item active">
-												<img src="/mizudori-international/assets/media/slide1.jpg" alt="manage Sync URL" title="manage Sync URL">
-										</div>
-										<div class="item">
-												<img src="/mizudori-international/assets/media/slide2.jpg" alt="pending" title="Pending Messages" />
-										</div>
-										<div class="item">
-												<img src="/mizudori-international/assets/media/slide3.jpg" alt="settings" title="Settings" />
-										</div>
-								</div>
-									 <!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-										<li data-target="#myCarousel" data-slide-to="1"></li>
-										<li data-target="#myCarousel" data-slide-to="2"></li>
-									</ol>
-						</div>
-			</div>
-		</div>
 	<div class="container">
-		<div class="row">
-<form class="form-horizontal">
-<fieldset>
+		<fieldset>
+    <form  action="#" method="post" id="order-form" novalidate="novalidate" role="form">
+        <!-- Form Name -->
+        <legend> Place an order <span class="load"><i class="fa fa-spinner fa-spin"></i></span></legend>
 
-<!-- Form Name -->
-<legend>Place an order</legend>
+        <div class="error alert alert-danger alert-dismissable" style="display: none;">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <span></span>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6" >
+                <label class="control-label" for="product">Product</label>
+                    <select id="product" name="product" class="form-control"/>
+                        <option value="Fresh mushroom">Fresh mushroom</option>
+                        <option value="Mushroom chips">Mushroom chips</option>
+                    </select>
+            </div>
 
-<!-- Select Basic -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="product">Product</label>
-  <div class="col-md-4">
-    <select id="product" name="product" class="form-control"/>
-      <option value="1">Fresh mushroom</option>
-      <option value="2">Mushroom chips</option>
-    </select>
-  </div>
-</div>
+            <!-- Button Drop Down -->
+            <div class="form-group col-md-6">
+                <label class="control-label" for="quantity">Quantity</label>
+                <div class="input-group">
+                    <input id="quantity" name="quantity" class="form-control" placeholder="Quantity" type="text"/>
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            1
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<!-- Button Drop Down -->
+        <div class="row">
+            <!-- Text input-->
+            <div class="form-group col-md-6">
+                <label class="control-label" for="name">Full name</label>
+                <input id="name" name="name" type="text" placeholder="Full name" class="form-control input-md" required=""/>
+                <span class="help-block">Please enter your full name here</span>
+            </div>
 
-<div class="form-group">
-  <label class="col-md-4 control-label" for="quantity">Quantity</label>
-  <div class="col-md-4">
-    <div class="input-group">
-      <input id="quantity" name="quantity" class="form-control" placeholder="Quantity" type="text"/>
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-          1
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu pull-right">
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+            <!-- Text input-->
+            <div class="form-group col-md-6">
+                <label class="control-label" for="email">Email</label>
+                <input id="email" name="email" type="text" placeholder="Email" class="form-control input-md" required=""/>
+                <span class="help-block">Please enter your email address so we can contact you</span>
+                <div class="error"></div>
+            </div>
+        </div>
 
-<!-- Text input-->
+        <div class="row">
+            <!-- Text input-->
+            <div class="form-group col-md-6">
+                <label class="control-label" for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" placeholder="Phone number" class="form-control input-md" required=""/>
+                <span class="help-block">Please enter your phone number so we can call you about your order</span>
+            </div>
 
-<div class="form-group">
-  <label class="col-md-4 control-label" for="name">Full name</label>
-  <div class="col-md-4">
-  <input id="name" name="name" type="text" placeholder="Full name" class="form-control input-md" required=""/>
-  <span class="help-block">Please enter your full name here</span>
-  </div>
-</div>
+            <!-- Text input-->
+            <div class="form-group col-md-6">
+                <label class="control-label" for="address">Address</label>
+                <textarea id="address" name="address" type="text" placeholder="Street address" class="form-control input-md" required="">
+                </textarea>
+                <span class="help-block">Please enter mailing/shipping address</span>
+            </div>
+        </div>
 
-<!-- Text input-->
+        <div class="row">
+            <!-- Text input-->
+            <div class="form-group col-md-6">
+                <label class="control-label" for="city">City</label>
+                <input id="city" name="city" type="text" placeholder="City" class="form-control input-md" required=""/>
+                <span class="help-block">City </span>
+            </div>
 
-<div class="form-group">
-  <label class="col-md-4 control-label" for="email">Email</label>
-  <div class="col-md-4">
-  <input id="email" name="email" type="text" placeholder="Email" class="form-control input-md" required=""/>
-  <span class="help-block">Please enter your email address so we can contact you</span>
-  </div>
-</div>
+            <!-- Select Basic -->
+            <div class="form-group col-md-6">
+                <label class="control-label" for="country">Country</label>
+                <select id="country" name="country" class="form-control">
+                    <option value="1">Ghana</option>
+                    <option value="2">Japan</option>
+                    </select>
+            </div>
+        </div>
 
-<!-- Text input-->
-
-<div class="form-group">
-  <label class="col-md-4 control-label" for="phone">Phone</label>
-  <div class="col-md-4">
-  <input id="phone" name="phone" type="text" placeholder="Phone number" class="form-control input-md" required=""/>
-  <span class="help-block">Please enter your phone number so we can call you about your order</span>
-  </div>
-</div>
-
-<!-- Text input-->
-
-<div class="form-group">
-  <label class="col-md-4 control-label" for="address">Address</label>
-  <div class="col-md-4">
-  <input id="address" name="address" type="text" placeholder="Street address" class="form-control input-md" required=""/>
-  <span class="help-block">Please enter mailing/shipping address</span>
-  </div>
-</div>
-
-<!-- Text input-->
-
-<div class="form-group">
-  <label class="col-md-4 control-label" for="city">City</label>
-  <div class="col-md-4">
-  <input id="city" name="city" type="text" placeholder="City" class="form-control input-md" required=""/>
-  <span class="help-block">City </span>
-  </div>
-</div>
-
-<!-- Select Basic -->
-
-<div class="form-group">
-  <label class="col-md-4 control-label" for="country">Country</label>
-  <div class="col-md-4">
-    <select id="country" name="country" class="form-control">
-      <option value="1">Ghana</option>
-      <option value="2">Japan</option>
-    </select>
-  </div>
-</div>
-
-<!-- Button -->
-
-<div class="form-group">
-  <label class="col-md-4 control-label" for="send">Submit</label>
-  <div class="col-md-4">
-    <button id="send" name="send" class="btn btn-primary">Send</button>
-  </div>
-</div>
-
-<p></fieldset>
-</form>
-</div></p>
+        <div class="row">
+            <!-- Button -->
+            <div class="form-group col-md-6">
+                <label class="control-label sr-only" for="send">Submit</label>
+                <button id="send" name="send" class="btn btn-primary">Send</button>
+            </div>
+        </div>
+    </form>
+</fieldset>
 
 	</div>
 <!-- footer starts -->
@@ -249,7 +211,11 @@
 				<div class="col-lg-4">
 					<h1 class="title"><i class="fa fa-envelope"></i> Contact us</h1>
 					<hr>
-					<form method="post" action="contact.php" class="form-horizontal" id="contactform">
+					<div class="error-msg alert alert-danger alert-dismissable" style="display: none;">
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+						<span></span>
+					</div>
+					<form method="post" action="" class="form-horizontal" id="contactform">
 						<div class="form-group">
 							<input class="form-control" type="text" name="name" placeholder="Name">
 						</div>
@@ -305,9 +271,13 @@
 	</div>
 <!--footer ends -->
 </div> <!-- body ends -->
-<script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js'></script>
 <script src='//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js'></script>
-<script src='/mizudori-international/assets/javascripts/site-fbd469d2dbb8378187173f2280490ea6.js'></script>  <script type="text/javascript">
+<script src='/mizudori-international/assets/javascripts/jsonify-6fdca2fc6df0bae860df4ca426dbedf2.js'></script>
+<script src='/mizudori-international/assets/javascripts/site-fbd469d2dbb8378187173f2280490ea6.js'></script>
+<script src='/mizudori-international/assets/javascripts/order-beae3c21d5a35dd81f58f9fb16f1bd48.js'></script>
+<script src='/mizudori-international/assets/javascripts/contact-fe816a0a5c1375c254cd6c3faa48b19e.js'></script>	<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '']);

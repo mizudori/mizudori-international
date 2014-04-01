@@ -21,7 +21,7 @@
 		<!-- Le styles -->
 <link href='//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css' type='text/css' rel='stylesheet' media='all'>
 <link href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' type='text/css' rel='stylesheet' media='all'>
-<link href='/mizudori-international/assets/stylesheets/styles-32d3d7e2d5b3096ca4e0828f0e4416e8.css' type='text/css' rel='stylesheet' media='all'>	</head>
+<link href='/mizudori-international/assets/stylesheets/styles-33bb165bd379063d00a2ca14a4c80454.css' type='text/css' rel='stylesheet' media='all'>	</head>
 	<body class="wrapper" >
 	<div class="body">
 		<header>
@@ -123,8 +123,7 @@ then to the country as a whole.</p>
 					<img src="http://farm4.staticflickr.com/3748/10817812266_8660ca8c18_n_d.jpg"/>
 				</div>
 				<div class="caption">
-					<p>Mushroom</p>
-					<p>100g</p>
+					<p> Shiitake Mushrooms</p>
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-4">
@@ -180,7 +179,11 @@ then to the country as a whole.</p>
 				<div class="col-lg-4">
 					<h1 class="title"><i class="fa fa-envelope"></i> Contact us</h1>
 					<hr>
-					<form method="post" action="contact.php" class="form-horizontal" id="contactform">
+					<div class="error-msg alert alert-danger alert-dismissable" style="display: none;">
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+						<span></span>
+					</div>
+					<form method="post" action="" class="form-horizontal" id="contactform">
 						<div class="form-group">
 							<input class="form-control" type="text" name="name" placeholder="Name">
 						</div>
@@ -236,9 +239,13 @@ then to the country as a whole.</p>
 	</div>
 <!--footer ends -->
 </div> <!-- body ends -->
-<script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js'></script>
 <script src='//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js'></script>
-<script src='/mizudori-international/assets/javascripts/site-fbd469d2dbb8378187173f2280490ea6.js'></script>  <script type="text/javascript">
+<script src='/mizudori-international/assets/javascripts/jsonify-6fdca2fc6df0bae860df4ca426dbedf2.js'></script>
+<script src='/mizudori-international/assets/javascripts/site-fbd469d2dbb8378187173f2280490ea6.js'></script>
+<script src='/mizudori-international/assets/javascripts/order-beae3c21d5a35dd81f58f9fb16f1bd48.js'></script>
+<script src='/mizudori-international/assets/javascripts/contact-fe816a0a5c1375c254cd6c3faa48b19e.js'></script>	<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '']);

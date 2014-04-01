@@ -85,109 +85,95 @@ then to the country as a whole.</p>
       <div class="_root">
         <h3 class="title"><a href="/mizudori-international/order">Order</a> <span class="date"></span></h3>
 
-        <div class="summary"><div class="row">
-<form class="form-horizontal">
-<fieldset>
-<!-- Form Name --><legend>Place an order</legend>
+        <div class="summary"><fieldset>
+<form action="#" method="post" id="order-form" novalidate="novalidate" role="form">
+        <!-- Form Name -->
+        <legend> Place an order <span class="load"><i class="fa fa-spinner fa-spin"></i></span>
+</legend>
 
-<!-- Select Basic -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="product">Product</label>
-  <div class="col-md-4">
-    <select id="product" name="product" class="form-control"></select><option value="1">Fresh mushroom</option>
-<option value="2">Mushroom chips</option>
+        <div class="error alert alert-danger alert-dismissable" style="display: none;">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+            <span></span>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label class="control-label" for="product">Product</label>
+                    <select id="product" name="product" class="form-control"></select><option value="Fresh mushroom">Fresh mushroom</option>
+<option value="Mushroom chips">Mushroom chips</option>
 </div>
-</div>
 
-<!-- Button Drop Down -->
-
-<div class="form-group">
-  <label class="col-md-4 control-label" for="quantity">Quantity</label>
-  <div class="col-md-4">
-    <div class="input-group">
-      <input id="quantity" name="quantity" class="form-control" placeholder="Quantity" type="text"><div class="input-group-btn">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-          1
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu pull-right">
+            <!-- Button Drop Down -->
+            <div class="form-group col-md-6">
+                <label class="control-label" for="quantity">Quantity</label>
+                <div class="input-group">
+                    <input id="quantity" name="quantity" class="form-control" placeholder="Quantity" type="text"><div class="input-group-btn">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            1
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu pull-right">
 <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-        </ul>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                        </ul>
 </div>
-    </div>
-  </div>
-</div>
+                </div>
+            </div>
+        </div>
 
-<!-- Text input-->
+        <div class="row">
+            <!-- Text input-->
+            <div class="form-group col-md-6">
+                <label class="control-label" for="name">Full name</label>
+                <input id="name" name="name" type="text" placeholder="Full name" class="form-control input-md" required=""><span class="help-block">Please enter your full name here</span>
+            </div>
 
-<div class="form-group">
-  <label class="col-md-4 control-label" for="name">Full name</label>
-  <div class="col-md-4">
-  <input id="name" name="name" type="text" placeholder="Full name" class="form-control input-md" required=""><span class="help-block">Please enter your full name here</span>
-  </div>
-</div>
+            <!-- Text input-->
+            <div class="form-group col-md-6">
+                <label class="control-label" for="email">Email</label>
+                <input id="email" name="email" type="text" placeholder="Email" class="form-control input-md" required=""><span class="help-block">Please enter your email address so we can contact you</span>
+                <div class="error"></div>
+            </div>
+        </div>
 
-<!-- Text input-->
+        <div class="row">
+            <!-- Text input-->
+            <div class="form-group col-md-6">
+                <label class="control-label" for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" placeholder="Phone number" class="form-control input-md" required=""><span class="help-block">Please enter your phone number so we can call you about your order</span>
+            </div>
 
-<div class="form-group">
-  <label class="col-md-4 control-label" for="email">Email</label>
-  <div class="col-md-4">
-  <input id="email" name="email" type="text" placeholder="Email" class="form-control input-md" required=""><span class="help-block">Please enter your email address so we can contact you</span>
-  </div>
-</div>
+            <!-- Text input-->
+            <div class="form-group col-md-6">
+                <label class="control-label" for="address">Address</label>
+                <textarea id="address" name="address" type="text" placeholder="Street address" class="form-control input-md" required=""></textarea><span class="help-block">Please enter mailing/shipping address</span>
+            </div>
+        </div>
 
-<!-- Text input-->
+        <div class="row">
+            <!-- Text input-->
+            <div class="form-group col-md-6">
+                <label class="control-label" for="city">City</label>
+                <input id="city" name="city" type="text" placeholder="City" class="form-control input-md" required=""><span class="help-block">City </span>
+            </div>
 
-<div class="form-group">
-  <label class="col-md-4 control-label" for="phone">Phone</label>
-  <div class="col-md-4">
-  <input id="phone" name="phone" type="text" placeholder="Phone number" class="form-control input-md" required=""><span class="help-block">Please enter your phone number so we can call you about your order</span>
-  </div>
-</div>
-
-<!-- Text input-->
-
-<div class="form-group">
-  <label class="col-md-4 control-label" for="address">Address</label>
-  <div class="col-md-4">
-  <input id="address" name="address" type="text" placeholder="Street address" class="form-control input-md" required=""><span class="help-block">Please enter mailing/shipping address</span>
-  </div>
-</div>
-
-<!-- Text input-->
-
-<div class="form-group">
-  <label class="col-md-4 control-label" for="city">City</label>
-  <div class="col-md-4">
-  <input id="city" name="city" type="text" placeholder="City" class="form-control input-md" required=""><span class="help-block">City </span>
-  </div>
-</div>
-
-<!-- Select Basic -->
-
-<div class="form-group">
-  <label class="col-md-4 control-label" for="country">Country</label>
-  <div class="col-md-4">
-    <select id="country" name="country" class="form-control"><option value="1">Ghana</option>
+            <!-- Select Basic -->
+            <div class="form-group col-md-6">
+                <label class="control-label" for="country">Country</label>
+                <select id="country" name="country" class="form-control"><option value="1">Ghana</option>
 <option value="2">Japan</option></select>
 </div>
-</div>
+        </div>
 
-<!-- Button -->
-
-<div class="form-group">
-  <label class="col-md-4 control-label" for="send">Submit</label>
-  <div class="col-md-4">
-    <button id="send" name="send" class="btn btn-primary">Send</button>
-  </div>
-</div>
-
-<p></p>
-</fieldset>
-</form>
-</div></div>
+        <div class="row">
+            <!-- Button -->
+            <div class="form-group col-md-6">
+                <label class="control-label sr-only" for="send">Submit</label>
+                <button id="send" name="send" class="btn btn-primary">Send</button>
+            </div>
+        </div>
+    </form>
+</fieldset></div>
 
         <div class="more">
           <a href="/mizudori-international/order" class="btn btn-small">read more..</a>
@@ -196,7 +182,39 @@ then to the country as a whole.</p>
       <div class="_root">
         <h3 class="title"><a href="/mizudori-international/products">Products</a> <span class="date"></span></h3>
 
-        <div class="summary"></div>
+        <div class="summary">
+<h3 id="toc_0">Products</h3>
+
+<p>Our main product is fresh shiitake mushrooms but also produce derivative products such as shiitake snacks.
+</p>
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="http://farm4.staticflickr.com/3748/10817812266_8660ca8c18_n_d.jpg"><div class="caption">
+                <strong>Our Shiitake Mushrooms</strong>
+                <p>Shiitake mushrooms are a great source of iron and contain eritadime, a substance that helps reduce
+                bad cholesterol. Other health benefits range from boosting the immune system to facilitating weight loss.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="http://farm8.staticflickr.com/7358/10817807686_df86a974ee_n_d.jpg"><div class="caption">
+                <strong>Our Healthy Snacks</strong>
+                <p>With only 10% of the fat of conventional fried snacks, you can indulge in our shiitake chips without worrying about your waistline!</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="http://farm4.staticflickr.com/3820/10817777175_57c8b683e4_n_d.jpg"><div class="caption">
+                <strong>Our Fresh Shiitake Mushroom</strong>
+                <p>You can boil, grill, fry or cook on a barbecue. Shiitake mushrooms can be prepared in variety of ways, adding a delicous flavour and dimension to any meal</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 
         <div class="more">
           <a href="/mizudori-international/products" class="btn btn-small">read more..</a>

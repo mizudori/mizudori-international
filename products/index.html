@@ -21,7 +21,7 @@
 		<!-- Le styles -->
 <link href='//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css' type='text/css' rel='stylesheet' media='all'>
 <link href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' type='text/css' rel='stylesheet' media='all'>
-<link href='/mizudori-international/assets/stylesheets/styles-32d3d7e2d5b3096ca4e0828f0e4416e8.css' type='text/css' rel='stylesheet' media='all'>	</head>
+<link href='/mizudori-international/assets/stylesheets/styles-33bb165bd379063d00a2ca14a4c80454.css' type='text/css' rel='stylesheet' media='all'>	</head>
 	<body class="wrapper" >
 	<div class="body">
 		<header>
@@ -76,31 +76,41 @@
 				</div>
 			</div>
 		</header>
-		<div class="container">
-			<div class="thumbnail">
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-								<div class="carousel-inner">
-										<div class="item active">
-												<img src="/mizudori-international/assets/media/slide1.jpg" alt="manage Sync URL" title="manage Sync URL">
-										</div>
-										<div class="item">
-												<img src="/mizudori-international/assets/media/slide2.jpg" alt="pending" title="Pending Messages" />
-										</div>
-										<div class="item">
-												<img src="/mizudori-international/assets/media/slide3.jpg" alt="settings" title="Settings" />
-										</div>
-								</div>
-									 <!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-										<li data-target="#myCarousel" data-slide-to="1"></li>
-										<li data-target="#myCarousel" data-slide-to="2"></li>
-									</ol>
-						</div>
-			</div>
-		</div>
 	<div class="container">
-		
+		<h3 id="toc_0">Products</h3>
+
+<p>Our main product is fresh shiitake mushrooms but also produce derivative products such as shiitake snacks.
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="http://farm4.staticflickr.com/3748/10817812266_8660ca8c18_n_d.jpg"/>
+            <div class="caption">
+                <strong>Our Shiitake Mushrooms</strong>
+                <p>Shiitake mushrooms are a great source of iron and contain eritadime, a substance that helps reduce
+                bad cholesterol. Other health benefits range from boosting the immune system to facilitating weight loss.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="http://farm8.staticflickr.com/7358/10817807686_df86a974ee_n_d.jpg" />
+            <div class="caption">
+                <strong>Our Healthy Snacks</strong>
+                <p>With only 10% of the fat of conventional fried snacks, you can indulge in our shiitake chips without worrying about your waistline!</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="http://farm4.staticflickr.com/3820/10817777175_57c8b683e4_n_d.jpg" />
+            <div class="caption">
+                <strong>Our Fresh Shiitake Mushroom</strong>
+                <p>You can boil, grill, fry or cook on a barbecue. Shiitake mushrooms can be prepared in variety of ways, adding a delicous flavour and dimension to any meal</p>
+            </div>
+        </div>
+    </div>
+</div></p>
+
 	</div>
 <!-- footer starts -->
     <div class="footer footer-dark-haki">
@@ -135,7 +145,11 @@
 				<div class="col-lg-4">
 					<h1 class="title"><i class="fa fa-envelope"></i> Contact us</h1>
 					<hr>
-					<form method="post" action="contact.php" class="form-horizontal" id="contactform">
+					<div class="error-msg alert alert-danger alert-dismissable" style="display: none;">
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+						<span></span>
+					</div>
+					<form method="post" action="" class="form-horizontal" id="contactform">
 						<div class="form-group">
 							<input class="form-control" type="text" name="name" placeholder="Name">
 						</div>
@@ -191,9 +205,13 @@
 	</div>
 <!--footer ends -->
 </div> <!-- body ends -->
-<script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js'></script>
 <script src='//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js'></script>
-<script src='/mizudori-international/assets/javascripts/site-fbd469d2dbb8378187173f2280490ea6.js'></script>  <script type="text/javascript">
+<script src='/mizudori-international/assets/javascripts/jsonify-6fdca2fc6df0bae860df4ca426dbedf2.js'></script>
+<script src='/mizudori-international/assets/javascripts/site-fbd469d2dbb8378187173f2280490ea6.js'></script>
+<script src='/mizudori-international/assets/javascripts/order-beae3c21d5a35dd81f58f9fb16f1bd48.js'></script>
+<script src='/mizudori-international/assets/javascripts/contact-fe816a0a5c1375c254cd6c3faa48b19e.js'></script>	<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '']);
