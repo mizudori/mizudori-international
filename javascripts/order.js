@@ -46,7 +46,7 @@ $(document).ready(function(){
 			//form.submit();
 			//var d = {'formkey' : '', $(form).serialize()};
 			var v = 'https://docs.google.com/forms/d/1i47I61djvq8eHTxNI-0cMOSpjO-R1yvjv9k5MMuupJ0/formResponse';
-			var d = $(form).serialize().replace('&send=','')+'&email='+$('#email').val()+'&url='+v+'&task=google&resp=jsonp';
+			var d = $(form).serialize().replace('&send=','')+'&email='+$('#email').val()+'&url='+v+'&task=order&resp=jsonp';
 			console.log(d);
 			var request = $.ajax({
 				type: 'POST',

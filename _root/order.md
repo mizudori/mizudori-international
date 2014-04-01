@@ -70,7 +70,8 @@ title : Order
 			<!-- Text input-->
 			<div class="form-group col-md-6">
 				<label class="control-label" for="address">Address</label>
-				<input id="address" name="address" type="text" placeholder="Street address" class="form-control input-md" required=""/>
+				<textarea id="address" name="address" type="text" placeholder="Street address" class="form-control input-md" required="">
+				</textarea>
 				<span class="help-block">Please enter mailing/shipping address</span>
 			</div>
 		</div>
