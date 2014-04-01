@@ -3,15 +3,14 @@ $(document).ready(function(){
 
 	var loader = $('.load').hide();
 	// Setup form validation on the #register-form element
-	$("#order-form").validate(
+	$("#contactform").validate(
 	{
 
 		// Specify the validation rules
 		rules:
 		{
-			product : "required",
-			quantity : "required",
 			name : "required",
+			comment : "required",
 			email : {
 				required : true,
 				email : true
@@ -24,19 +23,19 @@ $(document).ready(function(){
 				var message = errors == 1
 					? 'You missed 1 field. It has been highlighted below'
 					: 'You missed ' + errors + ' fields.  They have been highlighted below';
-				$("div.error span").html(message);
-				$("div.error").show();
+				$("div.error-msg span").html(message);
+				$("div.error-msg").show();
 			} else {
-				$("div.error").hide();
+				$("div.error-msg").hide();
 			}
 		},
 
 		// Specify the validation error messages
 		messages:
 		{
-			product: "Please enter the product you want to order",
-			quantity: "Please enter or select the quantity you want",
-			email: "Please enter a valid email address, eg. buy@sellingdomain.com"
+			name: "Please  enter your full name",
+			email: "Please enter a valid email address, eg. buy@sellingdomain.com",
+			comment: "Please provide a comment"
 		},
 
 		// Submit the form
@@ -44,21 +43,11 @@ $(document).ready(function(){
 		{
 			//console.log(JSON.stringify(form.quantity.));
 			var d = $(form).serialize();
-			console.log(d);
-			var request = $.ajax({
-				type: 'POST',
-				contentType: "application/json; charset=utf-8",
-				url : 'http://mizudori.jp/mizudori-international/api/',
-				data: d
 
-			}).done(function(data) {
-				form.resetForm();
-				$("div.error span").html('Your order has successfully been submitted for processing');
-				$("div.error").toggleClass('alert-success');
-				$("div.error").show();
-
-			}).fail(function(data){
-				console.log('failed '+JSON.stringify(data)+" "+d);
+			$.post('http://mizudori.jp/mizudori-international/api/', d, function(data){
+				$("div.error-msg span").html('Your message has been successfully submitted');
+				$("div.error-msg").toggleClass('alert-success');
+				$("div.error-msg").show();
 			});
 			return false;
 		}
