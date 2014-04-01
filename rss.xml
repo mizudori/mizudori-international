@@ -172,6 +172,7 @@ then to the country as a whole.&lt;/p&gt;
         &lt;div class="row"&gt;
             &lt;!-- Button --&gt;
             &lt;div class="form-group col-md-6"&gt;
+                &lt;input class="form-control" type="hidden" name="task" value="order"&gt;
                 &lt;label class="control-label sr-only" for="send"&gt;Submit&lt;/label&gt;
                 &lt;button id="send" name="send" class="btn btn-primary"&gt;Send&lt;/button&gt;
             &lt;/div&gt;
