@@ -42,13 +42,13 @@ $(document).ready(function(){
 		submitHandler: function(form)
 		{
 			//console.log(JSON.stringify(form.quantity.));
-			var d = $(form).serialize().replace('&send=','');
+			var d = $(form).serialize();
 
 			var request = $.ajax({
 				type: 'POST',
 				dataType: 'json',
 				contentType: 'application/json',
-				url : 'http://mizudori.jp/mizudori-international/api/index.php',
+				url : 'http://mizudori.jp/mizudori-international/api/index.php/',
 				data: d,
 
 			}).done(function(data) {

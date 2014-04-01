@@ -97,6 +97,7 @@ title : Order
 		<div class="row">
 			<!-- Button -->
 			<div class="form-group col-md-6">
+				<input class="form-control" type="hidden" name="task" value="order">
 				<label class="control-label sr-only" for="send">Submit</label>
 				<button id="send" name="send" class="btn btn-primary">Send</button>
 			</div>
