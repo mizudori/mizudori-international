@@ -42,7 +42,7 @@ $(document).ready(function(){
 		submitHandler: function(form)
 		{
 			//console.log(JSON.stringify(form.quantity.));
-			var d = $(form).serialize().replace('&send=','')+'&task=contact&resp=jsonp';
+			var d = $(form).serialize().replace('&send=','')+'&task=contact';
 
 			var request = $.ajax({
 				type: 'post',
