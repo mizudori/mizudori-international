@@ -42,9 +42,10 @@ $(document).ready(function(){
 		// Submit the form
 		submitHandler: function(form)
 		{
-			//console.log(JSON.stringify(form.quantity.));
+
 			var d = $(form).serialize();
 			$.post('http://mizudori.jp/mizudori-international/api/', d, function(data) {
+				console.log(JSON.stringify("data: "+data));
 				$("div.error span").html('Your order has successfully been submitted for processing');
 				$("div.error").toggleClass('alert-success');
 				$("div.error").show();
