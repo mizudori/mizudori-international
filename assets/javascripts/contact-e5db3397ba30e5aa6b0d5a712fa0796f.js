@@ -45,7 +45,7 @@ $(document).ready(function(){
 			var d = $(form).serialize().replace('&send=','')+'&task=contact';
 
 			var request = $.ajax({
-				type: 'post',
+				type: 'POST',
 				dataType: 'json',
 				contentType: 'application/json',
 				url : 'http://mizudori.jp/international/api/',
