@@ -48,7 +48,7 @@ $(document).ready(function(){
 			var request = $.ajax({
 				type: 'POST',
 				contentType: "application/json; charset=utf-8",
-				url : 'http://mizudori.jp/mizudori-international/api/index.php/',
+				url : 'http://mizudori.jp/mizudori-international/api/',
 				data: d
 
 			}).done(function(data) {

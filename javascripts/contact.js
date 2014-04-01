@@ -48,12 +48,11 @@ $(document).ready(function(){
 				type: 'POST',
 				dataType: 'json',
 				contentType: 'application/json; charset=utf-8',
-				url : 'http://mizudori.jp/mizudori-international/api/index.php/?',
+				url : 'http://mizudori.jp/mizudori-international/api/',
 				data: d
 
 			}).done(function(data) {
 				//form.resetForm();
-				console.log('failed '+JSON.stringify(data)+" "+d);
 				$("div.error-msg span").html('Your message has been successfully submitted');
 				$("div.error-msg").toggleClass('alert-success');
 				$("div.error-msg").show();
