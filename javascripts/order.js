@@ -43,12 +43,14 @@ $(document).ready(function(){
 		submitHandler: function(form)
 		{
 			//console.log(JSON.stringify(form.quantity.));
-			var d = $(form).serialize().replace('&send=','')+'&task=order';
+			var d = $(form).serialize().replace('&send=','')+'&task=order&resp=jsonp';
 			console.log(d);
 			var request = $.ajax({
 				type: 'POST',
+				dataType: 'jsonp',
+				crossDomain: true,
 				contentType: "application/json",
-				url : 'http://mizudori.jp/international/api/',
+				url : 'http://mizudori.jp/international/api/index.php',
 				data: d,
 
 			}).done(function(data) {
