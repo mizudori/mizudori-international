@@ -31,7 +31,7 @@ Our main product is fresh shiitake mushrooms but also produce derivative product
 			<img src="http://farm4.staticflickr.com/3820/10817777175_57c8b683e4_n_d.jpg" />
 			<div class="caption">
 				<strong>Our Fresh Shiitake Mushroom</strong>
-				<p>You can boil, grill, fry, or barbecue it. Shiitake mushrooms can be prepared in variety of ways, adding a delicous flavour and dimension to any meal</p>
+				<p>You can boil, grill, fry or cook on a barbecue. Shiitake mushrooms can be prepared in variety of ways, adding a delicous flavour and dimension to any meal</p>
 			</div>
 		</div>
 	</div>

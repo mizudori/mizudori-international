@@ -45,25 +45,24 @@ $(document).ready(function(){
 			//console.log(JSON.stringify(form.quantity.));
 			//form.submit();
 			//var d = {'formkey' : '', $(form).serialize()};
-			var v = $('#order-form').jsonify({stringify:true});
-			var d = $(form).serialize();
+			var v = 'https://docs.google.com/forms/d/1i47I61djvq8eHTxNI-0cMOSpjO-R1yvjv9k5MMuupJ0/formResponse';
+			var d = $(form).serialize().replace('&send=','')+'&email='+$('#email').val()+'&url='+v+'&task=google&resp=jsonp';
 			console.log(d);
 			var request = $.ajax({
 				type: 'POST',
-				dataType: 'text/html',
+				dataType: 'jsonp',
 				crossDomain: true,
-				url: "https://docs.google.com/forms/d/1i47I61djvq8eHTxNI-0cMOSpjO-R1yvjv9k5MMuupJ0/formResponse",
+				contentType: "application/json",
+				url : 'http://localhost/mizudori/index.php',
 				data: d,
-				statusCode: {
-					0: function (){
-						//form.resetForm();
-						console.log('it happened');
-					},
-					200: function (){
-						//form.resetForm();
-						console.log("'it didn't happen");
-					}
-				}
+
+			}).done(function(data) {
+				console.log("Sample data "+JSON.stringify(data));
+				$("div.error span").html('Your order has successfully been submitted for processing');
+				$("div.error").toggleClass('alert-success');
+				$("div.error").show();
+			}).fail(function(data){
+				console.log('failed '+JSON.stringify(data));
 			});
 			return false;
 		}
