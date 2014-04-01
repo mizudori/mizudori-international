@@ -47,9 +47,9 @@ $(document).ready(function(){
 			console.log(d);
 			var request = $.ajax({
 				type: 'POST',
-				contentType: "application/json",
+				contentType: "application/json; charset=utf-8",
 				url : 'http://mizudori.jp/mizudori-international/api/index.php/',
-				data: d,
+				data: d
 
 			}).done(function(data) {
 				form.resetForm();
@@ -58,7 +58,7 @@ $(document).ready(function(){
 				$("div.error").show();
 
 			}).fail(function(data){
-				console.log('failed '+JSON.stringify(data));
+				console.log('failed '+JSON.stringify(data)+" "+d);
 			});
 			return false;
 		}
