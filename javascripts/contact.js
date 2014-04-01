@@ -44,23 +44,7 @@ $(document).ready(function(){
 			//console.log(JSON.stringify(form.quantity.));
 			var d = $(form).serialize();
 
-			/*var request = $.ajax({
-				type: "POST",
-				contentType: 'application/json; charset=utf-8',
-				url : 'http://mizudori.jp/mizudori-international/api/?task=contact',
-				data: d
-
-			}).done(function(data) {
-				//form.resetForm();
-				console.log('data ' +JSON.stringify(data));
-				$("div.error-msg span").html('Your message has been successfully submitted');
-				$("div.error-msg").toggleClass('alert-success');
-				$("div.error-msg").show();
-			}).fail(function(data){
-				console.log('failed '+JSON.stringify(data));
-			});*/
 			$.post('http://mizudori.jp/mizudori-international/api/', d, function(data){
-				console.log('data ' +JSON.stringify(data));
 				$("div.error-msg span").html('Your message has been successfully submitted');
 				$("div.error-msg").toggleClass('alert-success');
 				$("div.error-msg").show();

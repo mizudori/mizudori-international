@@ -44,21 +44,10 @@ $(document).ready(function(){
 		{
 			//console.log(JSON.stringify(form.quantity.));
 			var d = $(form).serialize();
-			console.log(d);
-			var request = $.ajax({
-				type: 'POST',
-				contentType: "application/json; charset=utf-8",
-				url : 'http://mizudori.jp/mizudori-international/api/',
-				data: d
-
-			}).done(function(data) {
-				form.resetForm();
+			$.post('http://mizudori.jp/mizudori-international/api/', d, function(data) {
 				$("div.error span").html('Your order has successfully been submitted for processing');
 				$("div.error").toggleClass('alert-success');
 				$("div.error").show();
-
-			}).fail(function(data){
-				console.log('failed '+JSON.stringify(data)+" "+d);
 			});
 			return false;
 		}
