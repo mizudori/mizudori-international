@@ -9,13 +9,17 @@ $(document).ready(function(){
 		// Specify the validation rules
 		rules:
 		{
-			product : "required",
-			quantity : "required",
-			name : "required",
+			product : 'required',
+			quantity : 'required',
+			name : 'required',
 			email : {
 				required : true,
 				email : true
 			},
+			phone : 'required',
+			address : 'required',
+			city : 'required',
+			country : 'required'
 		},
 
 		invalidHandler: function(e, validator) {
@@ -34,9 +38,13 @@ $(document).ready(function(){
 		// Specify the validation error messages
 		messages:
 		{
-			product: "Please enter the product you want to order",
-			quantity: "Please enter or select the quantity you want",
-			email: "Please enter a valid email address, eg. buy@sellingdomain.com"
+			product : 'Please enter the product you want to order',
+			quantity : 'Please enter or select the quantity you want',
+			email : 'Please enter a valid email address, eg. buy@sellingdomain.com',
+			phone : 'Please enter your phone number',
+			address : 'Please enter a shipping address',
+			city : 'Please enter your city',
+			country : 'Please select a country for your order to be shipped to'
 		},
 
 		// Submit the form
