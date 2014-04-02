@@ -63,6 +63,11 @@ $(document).ready(function(){
 		}
 	});
 
+	$('.dropdown-menu a').click( function () {
+		var text = $(this).text();
+		$('#quantity').val(text);
+	});
+
 	$(document).ajaxStart(function() {
 		loader.show();
 	}).ajaxStop(function() {
