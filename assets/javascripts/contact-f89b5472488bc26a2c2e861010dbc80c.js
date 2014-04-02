@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 	var loader = $('.load').hide();
 	// Setup form validation on the #register-form element
-	$("#contactform").validate(
+	var valid = $("#contactform").validate(
 	{
 
 		// Specify the validation rules
@@ -48,6 +48,8 @@ $(document).ready(function(){
 				$("div.error-msg span").html('Your message has been successfully submitted');
 				$("div.error-msg").toggleClass('alert-success');
 				$("div.error-msg").show();
+				valid.resetForm();
+				form.reset();
 			});
 			return false;
 		}

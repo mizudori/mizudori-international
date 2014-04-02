@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 	var loader = $('.load').hide();
 	// Setup form validation on the #register-form element
-	$("#order-form").validate(
+	var valid = $("#order-form").validate(
 	{
 
 		// Specify the validation rules
@@ -45,10 +45,11 @@ $(document).ready(function(){
 
 			var d = $(form).serialize();
 			$.post('http://mizudori.jp/mizudori-international/api/', d, function(data) {
-				console.log(JSON.stringify("data: "+data));
 				$("div.error span").html('Your order has successfully been submitted for processing');
 				$("div.error").toggleClass('alert-success');
 				$("div.error").show();
+				valid.resetForm();
+				form.reset();
 			});
 			return false;
 		}
