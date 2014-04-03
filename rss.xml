@@ -3,11 +3,11 @@
   <channel>
     <title>Mizudori International</title>
     <description>Mushroom</description>
-    <link/>
+    <link>http://mizudori.jp/international</link>
     <pubDate>Apr 03, 2014</pubDate>
     <item>
       <title>About Us</title>
-      <link>/mizudori-international/about</link>
+      <link>http://mizudori.jp/international/about</link>
       <description>&lt;h3 id="toc_0"&gt;About Us&lt;/h3&gt;
 
 &lt;p&gt;While agricultural imports (shiitake, etc.) has been reduced from food safety, according to the actual situation of the region and the situation changes at home and abroad in the future, promoting the introduction of new products or new technology, locality development of regional specialty distinctive In order to strive, and to promote the provision of information and supply a standing improvement of distribution, Regulation of display and rationalization, to a consumer point of view, to achieve the promotion overall special purpose forest, in a fungal bed cultivation of shiitake production efforts, from mushroom bed manufacturing, we have established a facility to package.&lt;/p&gt;
@@ -53,12 +53,12 @@ CEO Yasuhide Ito&lt;/p&gt;
     </item>
     <item>
       <title>Contact Us</title>
-      <link>/mizudori-international/contact</link>
+      <link>http://mizudori.jp/international/contact</link>
       <description/>
     </item>
     <item>
       <title>Home</title>
-      <link>/mizudori-international</link>
+      <link>http://mizudori.jp/international/</link>
       <description>&lt;h3 id="toc_0"&gt;Who We are&lt;/h3&gt;
 
 &lt;p&gt;The motto of our company is &amp;quot;safe food&amp;quot;. Our company was established as the Agricultural producer&amp;#39;s
@@ -78,7 +78,7 @@ then to the country as a whole.&lt;/p&gt;
     </item>
     <item>
       <title>Order</title>
-      <link>/mizudori-international/order</link>
+      <link>http://mizudori.jp/international/order</link>
       <description>&lt;fieldset&gt;
     &lt;form  action="#" method="post" id="order-form" novalidate="novalidate" role="form"&gt;
         &lt;!-- Form Name --&gt;
@@ -400,7 +400,7 @@ then to the country as a whole.&lt;/p&gt;
     </item>
     <item>
       <title>Products</title>
-      <link>/mizudori-international/products</link>
+      <link>http://mizudori.jp/international/products</link>
       <description>&lt;h3 id="toc_0"&gt;Products&lt;/h3&gt;
 
 &lt;p&gt;Our main product is fresh shiitake mushrooms but also produce derivative products such as shiitake snacks.
