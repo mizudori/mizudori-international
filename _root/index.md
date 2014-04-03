@@ -10,11 +10,6 @@ Cooperative Corporation in 2004. Using biotechnology, we carry out the mushroom 
 grow mushrooms to ship elswhere to sell. The mushrooms are thick and soft and the usual smell has been removed so
 people who don't like normal mushrooms can enjoy this new variety.
 
-### What we do
+### Our Plants
 
- Using biotechnology, we carry out the mushroom bacterium floor manufacturing and
-grow mushrooms to ship elswhere to sell. The mushrooms are thick and soft and the usual smell has been removed so
-people who don't like normal mushrooms can enjoy this new variety.
-
-We aim to increase the domestic production of mushroom and to expand the sales network, first to the metropolitan area
-then to the country as a whole.
+We have more than 50 plants where shiitake are produced all year round. The temperature is kept stable thanks to bio energy.

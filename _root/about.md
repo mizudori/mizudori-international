@@ -12,6 +12,10 @@ Therefore, the commitment to "a safe and secure agricultural products" with the 
 Agricultural cooperative corporation water bird
 CEO Yasuhide Ito
 
+### Our location
+
+We are located in northern Japan, in Tsukidate City, Miyagi Prefecture. It is near Lake Izunuma, home of many beautiful birds that migrate here every year.
+
 ### Team
 
 <div class="row">
