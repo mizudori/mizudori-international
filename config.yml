@@ -5,6 +5,8 @@
 
 base_path: "international"
 
+production_url : 'http://mizudori.jp/international'
+
 widgets :
 
   analytics :
