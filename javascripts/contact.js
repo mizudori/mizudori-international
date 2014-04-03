@@ -44,7 +44,7 @@ $(document).ready(function(){
 			//console.log(JSON.stringify(form.quantity.));
 			var d = $(form).serialize();
 
-			$.post('http://mizudori.jp/mizudori-international/api/', d, function(data){
+			$.post('http://mizudori.jp/international/api/', d, function(data){
 				$("div.error-msg span").html('Your message has been successfully submitted');
 				$("div.error-msg").toggleClass('alert-success');
 				$("div.error-msg").show();
