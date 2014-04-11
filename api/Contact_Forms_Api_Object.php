@@ -80,8 +80,9 @@ class Contact_Forms_Api_Object extends Api_Object {
 		'Content-type: text/plain; charset=utf-8'."\r\n".
 		'X-Mailer: PHP/'.phpversion();
 		$msg = "Dear $full_name,\r\n\r\n";
+		$msg .="We have received your message. \r\n\r\n";
 		$msg .="We will get back to you shortly. \r\n\r\n";
-		$msg .= "Thank you,\r\n";
+		$msg .= "Thank you for contacting us,\r\n";
 		$msg .= "Mizudori International Team";
 		mail($to, $subject, $msg, $headers);
 	}
