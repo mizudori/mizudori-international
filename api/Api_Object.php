@@ -7,7 +7,7 @@
  * This provides a rudimentary api for sending a POST data to Google
  * docs forms and for emailing data to
  */
-define('REPLY_EMAIL', "addhen@gmail.com");
+define('REPLY_EMAIL', "mizudori@gold.ocn.ne.jp");
 abstract class Api_Object {
 
 	/**
