@@ -15,35 +15,3 @@ CEO Yasuhide Ito
 ### Our location
 
 We are located in northern Japan, in Tsukidate City, Miyagi Prefecture. It is near Lake Izunuma, home of many beautiful birds that migrate here every year.
-
-### Team
-
-<div class="row">
-	<div class="col-sm-6 col-md-4">
-		<div class="thumbnail">
-			<img src="http://farm4.staticflickr.com/3748/10817812266_8660ca8c18_n_d.jpg"/>
-			<div class="caption">
-				<strong>Yasuhide Ito</strong>
-				<p>CEO</p>
-			</div>
-		</div>
-	</div>
-	<div class="col-sm-6 col-md-4">
-		<div class="thumbnail">
-			<img src="http://farm8.staticflickr.com/7358/10817807686_df86a974ee_n_d.jpg" />
-			<div class="caption">
-				<strong>Saori Chiba</strong>
-				<p>Business Manager</p>
-			</div>
-		</div>
-	</div>
-	<div class="col-sm-6 col-md-4">
-		<div class="thumbnail">
-			<img src="http://farm4.staticflickr.com/3820/10817777175_57c8b683e4_n_d.jpg" />
-			<div class="caption">
-				<strong>Yasuhide Ito</strong>
-				<p>Marketing Manager</p>
-			</div>
-		</div>
-	</div>
-</div>

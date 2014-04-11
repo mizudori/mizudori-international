@@ -9,7 +9,7 @@ Our main product is fresh shiitake mushrooms but also produce derivative product
 <div class="row">
 	<div class="col-sm-6 col-md-4">
 		<div class="thumbnail">
-			<img src="http://farm4.staticflickr.com/3748/10817812266_8660ca8c18_n_d.jpg"/>
+			<img src="{{urls.media}}/shiitake-mushrooms.jpg"/>
 			<div class="caption">
 				<strong>Our Shiitake Mushrooms</strong>
 				<p>Shiitake mushrooms are a great source of iron and contain eritadime, a substance that helps reduce
@@ -19,7 +19,7 @@ Our main product is fresh shiitake mushrooms but also produce derivative product
 	</div>
 	<div class="col-sm-6 col-md-4">
 		<div class="thumbnail">
-			<img src="http://farm8.staticflickr.com/7358/10817807686_df86a974ee_n_d.jpg" />
+			<img src="{{urls.media}}/healthy-snacks.jpg" />
 			<div class="caption">
 				<strong>Our Healthy Snacks</strong>
 				<p>With only 10% of the fat of conventional fried snacks, you can indulge in our shiitake chips without worrying about your waistline!</p>
@@ -28,7 +28,7 @@ Our main product is fresh shiitake mushrooms but also produce derivative product
 	</div>
 	<div class="col-sm-6 col-md-4">
 		<div class="thumbnail">
-			<img src="http://farm4.staticflickr.com/3820/10817777175_57c8b683e4_n_d.jpg" />
+			<img src="{{urls.media}}/fresh-shiitake-mushrooms.jpg" />
 			<div class="caption">
 				<strong>Our Fresh Shiitake Mushroom</strong>
 				<p>You can boil, grill, fry or cook on a barbecue. Shiitake mushrooms can be prepared in variety of ways, adding a delicous flavour and dimension to any meal</p>
