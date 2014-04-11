@@ -11,3 +11,6 @@ widgets :
     use : google
     # -- tracking code for google analytics --
     tracking_id : ''
+
+"api" :
+  use : "ignore"
