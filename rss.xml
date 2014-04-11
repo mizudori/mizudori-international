@@ -3,11 +3,11 @@
   <channel>
     <title>Mizudori International</title>
     <description>Mushroom</description>
-    <link>http://mizudori.jp/international</link>
-    <pubDate>Apr 03, 2014</pubDate>
+    <link/>
+    <pubDate>Apr 11, 2014</pubDate>
     <item>
       <title>About Us</title>
-      <link>http://mizudori.jp/international/about</link>
+      <link>/mizudori-international/about</link>
       <description>&lt;h3 id="toc_0"&gt;About Us&lt;/h3&gt;
 
 &lt;p&gt;While agricultural imports (shiitake, etc.) has been reduced from food safety, according to the actual situation of the region and the situation changes at home and abroad in the future, promoting the introduction of new products or new technology, locality development of regional specialty distinctive In order to strive, and to promote the provision of information and supply a standing improvement of distribution, Regulation of display and rationalization, to a consumer point of view, to achieve the promotion overall special purpose forest, in a fungal bed cultivation of shiitake production efforts, from mushroom bed manufacturing, we have established a facility to package.&lt;/p&gt;
@@ -18,47 +18,19 @@
 Agricultural cooperative corporation water bird
 CEO Yasuhide Ito&lt;/p&gt;
 
-&lt;h3 id="toc_1"&gt;Team&lt;/h3&gt;
+&lt;h3 id="toc_1"&gt;Our location&lt;/h3&gt;
 
-&lt;div class="row"&gt;
-    &lt;div class="col-sm-6 col-md-4"&gt;
-        &lt;div class="thumbnail"&gt;
-            &lt;img src="http://farm4.staticflickr.com/3748/10817812266_8660ca8c18_n_d.jpg"/&gt;
-            &lt;div class="caption"&gt;
-                &lt;strong&gt;Yasuhide Ito&lt;/strong&gt;
-                &lt;p&gt;CEO&lt;/p&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class="col-sm-6 col-md-4"&gt;
-        &lt;div class="thumbnail"&gt;
-            &lt;img src="http://farm8.staticflickr.com/7358/10817807686_df86a974ee_n_d.jpg" /&gt;
-            &lt;div class="caption"&gt;
-                &lt;strong&gt;Saori Chiba&lt;/strong&gt;
-                &lt;p&gt;Business Manager&lt;/p&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class="col-sm-6 col-md-4"&gt;
-        &lt;div class="thumbnail"&gt;
-            &lt;img src="http://farm4.staticflickr.com/3820/10817777175_57c8b683e4_n_d.jpg" /&gt;
-            &lt;div class="caption"&gt;
-                &lt;strong&gt;Yasuhide Ito&lt;/strong&gt;
-                &lt;p&gt;Marketing Manager&lt;/p&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;We are located in northern Japan, in Tsukidate City, Miyagi Prefecture. It is near Lake Izunuma, home of many beautiful birds that migrate here every year.&lt;/p&gt;
 </description>
     </item>
     <item>
       <title>Contact Us</title>
-      <link>http://mizudori.jp/international/contact</link>
+      <link>/mizudori-international/contact</link>
       <description/>
     </item>
     <item>
       <title>Home</title>
-      <link>http://mizudori.jp/international/</link>
+      <link>/mizudori-international</link>
       <description>&lt;h3 id="toc_0"&gt;Who We are&lt;/h3&gt;
 
 &lt;p&gt;The motto of our company is &amp;quot;safe food&amp;quot;. Our company was established as the Agricultural producer&amp;#39;s
@@ -66,19 +38,14 @@ Cooperative Corporation in 2004. Using biotechnology, we carry out the mushroom 
 grow mushrooms to ship elswhere to sell. The mushrooms are thick and soft and the usual smell has been removed so
 people who don&amp;#39;t like normal mushrooms can enjoy this new variety.&lt;/p&gt;
 
-&lt;h3 id="toc_1"&gt;What we do&lt;/h3&gt;
+&lt;h3 id="toc_1"&gt;Our Plants&lt;/h3&gt;
 
-&lt;p&gt;Using biotechnology, we carry out the mushroom bacterium floor manufacturing and
-grow mushrooms to ship elswhere to sell. The mushrooms are thick and soft and the usual smell has been removed so
-people who don&amp;#39;t like normal mushrooms can enjoy this new variety.&lt;/p&gt;
-
-&lt;p&gt;We aim to increase the domestic production of mushroom and to expand the sales network, first to the metropolitan area
-then to the country as a whole.&lt;/p&gt;
+&lt;p&gt;We have more than 50 plants where shiitake are produced all year round. The temperature is kept stable thanks to bio energy.&lt;/p&gt;
 </description>
     </item>
     <item>
       <title>Order</title>
-      <link>http://mizudori.jp/international/order</link>
+      <link>/mizudori-international/order</link>
       <description>&lt;fieldset&gt;
     &lt;form  action="#" method="post" id="order-form" novalidate="novalidate" role="form"&gt;
         &lt;!-- Form Name --&gt;
@@ -400,14 +367,14 @@ then to the country as a whole.&lt;/p&gt;
     </item>
     <item>
       <title>Products</title>
-      <link>http://mizudori.jp/international/products</link>
+      <link>/mizudori-international/products</link>
       <description>&lt;h3 id="toc_0"&gt;Products&lt;/h3&gt;
 
 &lt;p&gt;Our main product is fresh shiitake mushrooms but also produce derivative products such as shiitake snacks.
 &lt;div class="row"&gt;
     &lt;div class="col-sm-6 col-md-4"&gt;
         &lt;div class="thumbnail"&gt;
-            &lt;img src="http://farm4.staticflickr.com/3748/10817812266_8660ca8c18_n_d.jpg"/&gt;
+            &lt;img src="/mizudori-international/assets/media/shiitake-mushrooms.jpg"/&gt;
             &lt;div class="caption"&gt;
                 &lt;strong&gt;Our Shiitake Mushrooms&lt;/strong&gt;
                 &lt;p&gt;Shiitake mushrooms are a great source of iron and contain eritadime, a substance that helps reduce
@@ -417,7 +384,7 @@ then to the country as a whole.&lt;/p&gt;
     &lt;/div&gt;
     &lt;div class="col-sm-6 col-md-4"&gt;
         &lt;div class="thumbnail"&gt;
-            &lt;img src="http://farm8.staticflickr.com/7358/10817807686_df86a974ee_n_d.jpg" /&gt;
+            &lt;img src="/mizudori-international/assets/media/healthy-snacks.jpg" /&gt;
             &lt;div class="caption"&gt;
                 &lt;strong&gt;Our Healthy Snacks&lt;/strong&gt;
                 &lt;p&gt;With only 10% of the fat of conventional fried snacks, you can indulge in our shiitake chips without worrying about your waistline!&lt;/p&gt;
@@ -426,7 +393,7 @@ then to the country as a whole.&lt;/p&gt;
     &lt;/div&gt;
     &lt;div class="col-sm-6 col-md-4"&gt;
         &lt;div class="thumbnail"&gt;
-            &lt;img src="http://farm4.staticflickr.com/3820/10817777175_57c8b683e4_n_d.jpg" /&gt;
+            &lt;img src="/mizudori-international/assets/media/fresh-shiitake-mushrooms.jpg" /&gt;
             &lt;div class="caption"&gt;
                 &lt;strong&gt;Our Fresh Shiitake Mushroom&lt;/strong&gt;
                 &lt;p&gt;You can boil, grill, fry or cook on a barbecue. Shiitake mushrooms can be prepared in variety of ways, adding a delicous flavour and dimension to any meal&lt;/p&gt;

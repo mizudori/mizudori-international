@@ -52,7 +52,7 @@ $(document).ready(function(){
 		{
 
 			var d = $(form).serialize();
-			$.post('http://mizudori.jp/mizudori-international/api/', d, function(data) {
+			$.post('http://mizudori.jp/international/api/', d, function(data) {
 				$("div.error span").html('Your order has successfully been submitted for processing');
 				$("div.error").toggleClass('alert-success');
 				$("div.error").show();
