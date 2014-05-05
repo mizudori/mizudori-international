@@ -320,6 +320,11 @@ ul.footer-menu li a:hover,.footer a:hover {
 .smaller {
 	font-size:80%;
 }
+
+.year {
+	font-size:90%;
+}
+
 .fontarial {
 	font-family:arial;
 }
