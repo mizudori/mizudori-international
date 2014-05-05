@@ -24,24 +24,24 @@ title : Order
 
 			<!-- Button Drop Down -->
 			<div class="form-group col-md-6">
-				<label class="control-label" for="quantity">Quantity</label>
+				<label class="control-label" for="quantity">Weight in kg</label>
 				<div class="input-group">
-					<input id="quantity" name="quantity" class="form-control" placeholder="Quantity" type="text"/>
+					<input id="quantity" name="quantity" class="form-control" placeholder="Weight" type="text"/>
 					<div class="input-group-btn">
 						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-							1
+							1kg
 							<span class="caret"></span>
 						</button>
 						<ul class="dropdown-menu pull-right">
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">4</a></li>
-							<li><a href="#">5</a></li>
-							<li><a href="#">6</a></li>
-							<li><a href="#">7</a></li>
-							<li><a href="#">8</a></li>
-							<li><a href="#">9</a></li>
-							<li><a href="#">10</a></li>
+							<li><a href="#">2kg</a></li>
+							<li><a href="#">3kg</a></li>
+							<li><a href="#">4kg</a></li>
+							<li><a href="#">5kg</a></li>
+							<li><a href="#">6kg</a></li>
+							<li><a href="#">7kg</a></li>
+							<li><a href="#">8kg</a></li>
+							<li><a href="#">9kg</a></li>
+							<li><a href="#">10kg</a></li>
 						</ul>
 					</div>
 				</div>
@@ -53,15 +53,12 @@ title : Order
 			<div class="form-group col-md-6">
 				<label class="control-label" for="name">Full name</label>
 				<input id="name" name="name" type="text" placeholder="Full name" class="form-control input-md" required=""/>
-				<span class="help-block">Please enter your full name here</span>
 			</div>
 
 			<!-- Text input-->
 			<div class="form-group col-md-6">
 				<label class="control-label" for="email">Email</label>
 				<input id="email" name="email" type="text" placeholder="Email" class="form-control input-md" required=""/>
-				<span class="help-block">Please enter your email address so we can contact you</span>
-				<div class="error"></div>
 			</div>
 		</div>
 
@@ -70,7 +67,6 @@ title : Order
 			<div class="form-group col-md-6">
 				<label class="control-label" for="phone">Phone</label>
 				<input id="phone" name="phone" type="tel" placeholder="Phone number" class="form-control input-md" required=""/>
-				<span class="help-block">Please enter your phone number so we can call you about your order</span>
 			</div>
 
 			<!-- Text input-->
