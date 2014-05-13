@@ -5,12 +5,9 @@ slideshow : yes
 ---
 ### Who We are
 
-Our company was established as the Agricultural producer's
-Cooperative Corporation in 2004. Using biotechnology, we carry out the mushroom bacterium floor manufacturing and
-grow mushrooms to ship elswhere to sell. The mushrooms are thick and soft and the usual smell has been removed so
-people who don't like normal mushrooms can enjoy this new variety.
+Mizudori is the largest producer of shiitake mushrooms in the north-east of Japan with annual production surpassing 500 tonnes and selling to supermarkets and restaurants throughout the region.
 
 ### Our Location
 
-We are located in northern Japan, in Tsukidate City, Miyagi Prefecture. It is near Lake Izunuma, home of many beautify birds
+We are located in northern Japan, in Tsukidate City, Miyagi Prefecture. It is near Lake Izunuma, home of many beautiful birds
 that migrate here every year.
