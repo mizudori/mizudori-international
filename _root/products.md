@@ -5,7 +5,7 @@ title : Products
 
 ### Products
 
-Our main product is fresh shiitake mushrooms but also produce derivative products such as shiitake snacks.
+Our main product is fresh shiitake mushrooms but we also make snacks from the shiitake mushrooms.
 <div class="row">
 	<div class="col-sm-6 col-md-4">
 		<div class="thumbnail">
